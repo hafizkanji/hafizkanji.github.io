@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Reception - Smart Virtual Front Desk</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">◈</span> AI Reception
+            </a>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#demo">Demo</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-content">
+            <h1>Your AI-Powered<br><span class="highlight">Virtual Receptionist</span></h1>
+            <p class="hero-subtitle">Greet visitors, answer questions, schedule appointments, and manage your front desk — all powered by intelligent AI that never takes a break.</p>
+            <div class="hero-buttons">
+                <a href="#demo" class="btn btn-primary">Try Live Demo</a>
+                <a href="#features" class="btn btn-secondary">Learn More</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">98%</span>
+                    <span class="stat-label">Satisfaction Rate</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">Availability</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">5s</span>
+                    <span class="stat-label">Avg Response</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Intelligent Features</h2>
+            <p class="section-subtitle">Everything you need to automate your front desk experience</p>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">💬</div>
+                    <h3>Natural Conversations</h3>
+                    <p>Engage visitors with human-like dialogue. Our AI understands context, intent, and nuance to provide helpful responses.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📅</div>
+                    <h3>Smart Scheduling</h3>
+                    <p>Automatically book, reschedule, and manage appointments. Syncs with your existing calendar systems seamlessly.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👋</div>
+                    <h3>Visitor Check-In</h3>
+                    <p>Streamline the check-in process with digital registration, badge printing, and automatic host notifications.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Multilingual Support</h3>
+                    <p>Communicate with visitors in over 50 languages. Real-time translation ensures no one is left behind.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Secure & Private</h3>
+                    <p>Enterprise-grade security with end-to-end encryption. GDPR and SOC 2 compliant data handling.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Analytics Dashboard</h3>
+                    <p>Track visitor patterns, peak hours, and satisfaction metrics. Make data-driven decisions for your workplace.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="demo" class="demo">
+        <div class="container">
+            <h2 class="section-title">Try It Out</h2>
+            <p class="section-subtitle">Experience a conversation with our AI receptionist</p>
+            <div class="chat-window">
+                <div class="chat-header">
+                    <div class="chat-status">
+                        <span class="status-dot"></span>
+                        AI Reception — Online
+                    </div>
+                </div>
+                <div class="chat-messages" id="chatMessages">
+                    <div class="message bot-message">
+                        <div class="message-avatar">◈</div>
+                        <div class="message-bubble">
+                            Welcome! I'm the AI receptionist. How can I help you today? You can ask me about scheduling, directions, or general information.
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-input-area">
+                    <div class="quick-replies" id="quickReplies">
+                        <button class="quick-reply" data-message="I'd like to schedule a meeting">Schedule a meeting</button>
+                        <button class="quick-reply" data-message="Where is the conference room?">Find a room</button>
+                        <button class="quick-reply" data-message="I'm here to see someone">Visitor check-in</button>
+                    </div>
+                    <form class="chat-form" id="chatForm">
+                        <input type="text" id="chatInput" placeholder="Type your message..." autocomplete="off">
+                        <button type="submit" class="send-btn">→</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Simple Pricing</h2>
+            <p class="section-subtitle">Choose the plan that fits your organization</p>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Starter</h3>
+                    <div class="price">$49<span>/mo</span></div>
+                    <ul class="pricing-features">
+                        <li>1 reception point</li>
+                        <li>Up to 500 interactions/mo</li>
+                        <li>Basic scheduling</li>
+                        <li>Email support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary">Get Started</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3>Business</h3>
+                    <div class="price">$149<span>/mo</span></div>
+                    <ul class="pricing-features">
+                        <li>Up to 5 reception points</li>
+                        <li>Unlimited interactions</li>
+                        <li>Advanced scheduling</li>
+                        <li>Multilingual support</li>
+                        <li>Analytics dashboard</li>
+                        <li>Priority support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <div class="price">Custom</div>
+                    <ul class="pricing-features">
+                        <li>Unlimited reception points</li>
+                        <li>Unlimited interactions</li>
+                        <li>Custom integrations</li>
+                        <li>Dedicated account manager</li>
+                        <li>SLA guarantee</li>
+                        <li>On-premise option</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Ready to transform your front desk? We'd love to hear from you.</p>
+            <form class="contact-form" id="contactForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required placeholder="you@company.com">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="company">Company</label>
+                    <input type="text" id="company" placeholder="Your company name">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="4" placeholder="Tell us about your needs..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <span class="logo-icon">◈</span> AI Reception
+                <p>Smart virtual front desk for modern workplaces.</p>
+            </div>
+            <div class="footer-links">
+                <div>
+                    <h4>Product</h4>
+                    <a href="#features">Features</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#demo">Demo</a>
+                </div>
+                <div>
+                    <h4>Company</h4>
+                    <a href="#contact">Contact</a>
+                    <a href="#">About</a>
+                    <a href="#">Careers</a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 AI Reception. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
